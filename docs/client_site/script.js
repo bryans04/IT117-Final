@@ -154,8 +154,8 @@ if (leadForm) {
 const quoteForm = document.getElementById('quoteForm');
 const formMessage = document.getElementById('formMessage');
 
-// Zapier webhook URL for quote form submissions
-const FORM_WEBHOOK_URL = 'https://hooks.zapier.com/hooks/catch/25742784/uam5op0/';
+// GREENLEAF ZAPIER WEBHOOK - Separate webhook for landscaping quote requests
+const FORM_WEBHOOK_URL = 'https://hooks.zapier.com/hooks/catch/25742784/uams82s/';
 
 if (quoteForm) {
     quoteForm.addEventListener('submit', async (e) => {
