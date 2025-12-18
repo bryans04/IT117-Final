@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="GreenLeaf Landscaping - Professional landscape design, maintenance, and installation services. Transform your outdoor space today.">
+    <meta name="keywords" content="landscaping, lawn care, garden design, outdoor living, landscape maintenance">
+    <title>GreenLeaf Landscaping | Transform Your Outdoor Space</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-icon">🌿</span>
+                <span class="logo-text">GreenLeaf</span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#process" class="nav-link">Our Process</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Get Free Quote</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Parallax -->
+    <section class="hero parallax" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Transform Your Outdoor Space</h1>
+            <p class="hero-subtitle">
+                Professional landscaping services that bring your vision to life.
+                From design to maintenance, we create stunning outdoor environments.
+            </p>
+            <div class="hero-cta">
+                <a href="#quote" class="btn btn-primary">Get Free Quote</a>
+                <a href="#services" class="btn btn-secondary">Our Services</a>
+            </div>
+            <div class="hero-trust">
+                <div class="trust-item">
+                    <div class="trust-number">500+</div>
+                    <div class="trust-label">Projects Completed</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-number">15+</div>
+                    <div class="trust-label">Years Experience</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-number">100%</div>
+                    <div class="trust-label">Satisfaction Rate</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- Lead Magnet Section (Sales Funnel Step 1) -->
+    <section class="lead-magnet">
+        <div class="container">
+            <div class="lead-content">
+                <div class="lead-icon">📘</div>
+                <h2>Free Download: Ultimate Landscape Planning Guide</h2>
+                <p>
+                    Get our comprehensive 20-page guide with expert tips on planning your dream landscape.
+                    Includes seasonal checklists, plant selection guides, and budget planning worksheets.
+                </p>
+                <form class="lead-form" id="leadForm">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-accent">Download Free Guide</button>
+                </form>
+                <p class="lead-privacy">We respect your privacy. Unsubscribe anytime.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What We Do</span>
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-description">
+                    Comprehensive landscaping solutions tailored to your needs
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Landscape Design</h3>
+                    <p>
+                        Custom designs that reflect your style and enhance your property's value.
+                        From concept to 3D visualization.
+                    </p>
+                    <ul class="service-features">
+                        <li>3D Design Renderings</li>
+                        <li>Plant Selection</li>
+                        <li>Hardscape Planning</li>
+                        <li>Lighting Design</li>
+                    </ul>
+                    <div class="service-price">Starting at $500</div>
+                    <a href="#quote" class="service-link">Get Quote →</a>
+                </article>
+
+                <article class="service-card featured">
+                    <div class="featured-badge">Most Popular</div>
+                    <div class="service-icon">🌱</div>
+                    <h3>Installation & Build</h3>
+                    <p>
+                        Expert installation of plants, irrigation, hardscapes, and outdoor features.
+                        Quality workmanship guaranteed.
+                    </p>
+                    <ul class="service-features">
+                        <li>Professional Planting</li>
+                        <li>Irrigation Systems</li>
+                        <li>Patios & Walkways</li>
+                        <li>Outdoor Kitchens</li>
+                    </ul>
+                    <div class="service-price">Custom Pricing</div>
+                    <a href="#quote" class="service-link">Get Quote →</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">✂️</div>
+                    <h3>Maintenance & Care</h3>
+                    <p>
+                        Keep your landscape looking its best year-round with our comprehensive
+                        maintenance programs.
+                    </p>
+                    <ul class="service-features">
+                        <li>Weekly Lawn Care</li>
+                        <li>Seasonal Cleanup</li>
+                        <li>Pruning & Trimming</li>
+                        <li>Fertilization</li>
+                    </ul>
+                    <div class="service-price">From $150/month</div>
+                    <a href="#quote" class="service-link">Get Quote →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process parallax-light" id="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">How It Works</span>
+                <h2 class="section-title">Our Simple Process</h2>
+                <p class="section-description">
+                    From consultation to completion in four easy steps
+                </p>
+            </div>
+
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Free Consultation</h3>
+                        <p>
+                            We visit your property to understand your vision, assess the space,
+                            and discuss your budget and timeline.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Custom Design</h3>
+                        <p>
+                            Our designers create a detailed plan with 3D renderings, plant selections,
+                            and material recommendations.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Professional Installation</h3>
+                        <p>
+                            Our experienced crew brings your design to life with quality workmanship
+                            and attention to detail.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Ongoing Support</h3>
+                        <p>
+                            We provide maintenance guidance and optional care programs to keep
+                            your landscape thriving.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Work</span>
+                <h2 class="section-title">Recent Projects</h2>
+                <p class="section-description">
+                    See the transformations we've created for our clients
+                </p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <span>Before & After</span>
+                            <span>Backyard Oasis</span>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Modern Backyard Retreat</h4>
+                        <p>Complete transformation with patio, fire pit, and native plantings</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <span>Project Showcase</span>
+                            <span>Front Yard Design</span>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Curb Appeal Makeover</h4>
+                        <p>Drought-tolerant landscape with modern hardscaping</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <span>Featured Work</span>
+                            <span>Garden Paradise</span>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Sustainable Garden</h4>
+                        <p>Organic vegetable garden with irrigation system</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <span>Luxury Project</span>
+                            <span>Outdoor Living</span>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Outdoor Entertainment Space</h4>
+                        <p>Kitchen, dining area, and lounge with landscape lighting</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials parallax-light" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Client Reviews</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <article class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <blockquote>
+                        "GreenLeaf transformed our boring backyard into an amazing outdoor living space.
+                        The team was professional, on time, and the results exceeded our expectations!"
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div class="author-info">
+                            <div class="author-name">Sarah Martinez</div>
+                            <div class="author-location">Los Angeles, CA</div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <blockquote>
+                        "Best landscaping company we've worked with. They listened to our ideas and
+                        created a design that was even better than we imagined. Highly recommend!"
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JT</div>
+                        <div class="author-info">
+                            <div class="author-name">James Thompson</div>
+                            <div class="author-location">San Diego, CA</div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <blockquote>
+                        "Their maintenance service is outstanding. Our yard has never looked better,
+                        and we love that we don't have to worry about it anymore."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">LR</div>
+                        <div class="author-info">
+                            <div class="author-name">Lisa Rodriguez</div>
+                            <div class="author-location">Orange County, CA</div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="trust-badges">
+                <div class="badge">✓ Licensed & Insured</div>
+                <div class="badge">✓ 5-Year Warranty</div>
+                <div class="badge">✓ Free Estimates</div>
+                <div class="badge">✓ Eco-Friendly</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Form Section (Sales Funnel Step 2) -->
+    <section class="quote-section" id="quote">
+        <div class="container">
+            <div class="quote-grid">
+                <div class="quote-info">
+                    <h2>Get Your Free Quote Today</h2>
+                    <p class="quote-lead">
+                        Ready to transform your outdoor space? Fill out the form and we'll provide
+                        a detailed quote within 24 hours.
+                    </p>
+
+                    <div class="quote-benefits">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">✓</div>
+                            <div class="benefit-text">
+                                <h4>No Obligation</h4>
+                                <p>Free consultation and quote with no pressure</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">✓</div>
+                            <div class="benefit-text">
+                                <h4>Fast Response</h4>
+                                <p>We'll get back to you within 24 hours</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">✓</div>
+                            <div class="benefit-text">
+                                <h4>Expert Advice</h4>
+                                <p>Professional recommendations for your space</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quote-urgency">
+                        <span class="urgency-icon">⏰</span>
+                        <span><strong>Limited Time:</strong> Book this month and save 10% on design services!</span>
+                    </div>
+                </div>
+
+                <div class="quote-form-container">
+                    <form class="quote-form" id="quoteForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Property Address</label>
+                            <input type="text" id="address" name="address">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Interested In *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="design">Landscape Design</option>
+                                <option value="installation">Installation & Build</option>
+                                <option value="maintenance">Maintenance & Care</option>
+                                <option value="all">Complete Package</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget">Estimated Budget</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="under-5k">Under $5,000</option>
+                                <option value="5k-10k">$5,000 - $10,000</option>
+                                <option value="10k-25k">$10,000 - $25,000</option>
+                                <option value="25k-50k">$25,000 - $50,000</option>
+                                <option value="over-50k">Over $50,000</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" rows="4" required
+                                placeholder="Tell us about your project..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Get My Free Quote
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </button>
+
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>Have questions? We're here to help!</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <div class="contact-label">Phone</div>
+                                <a href="tel:+15551234567" class="contact-value">(555) 123-4567</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div>
+                                <div class="contact-label">Email</div>
+                                <a href="mailto:info@greenleaflandscaping.com"
+                                    class="contact-value">info@greenleaflandscaping.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <div class="contact-label">Location</div>
+                                <span class="contact-value">Serving Southern California</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">🕐</div>
+                            <div>
+                                <div class="contact-label">Hours</div>
+                                <span class="contact-value">Mon-Sat: 7AM - 6PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-cta">
+                    <h3>Ready to Get Started?</h3>
+                    <p>Schedule your free consultation today and let's bring your vision to life.</p>
+                    <a href="#quote" class="btn btn-accent btn-large">Schedule Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🌿</span>
+                        <span class="logo-text">GreenLeaf</span>
+                    </div>
+                    <p class="footer-tagline">
+                        Transforming outdoor spaces with professional landscaping services
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Landscape Design</a></li>
+                            <li><a href="#services">Installation</a></li>
+                            <li><a href="#services">Maintenance</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#process">Our Process</a></li>
+                            <li><a href="#gallery">Portfolio</a></li>
+                            <li><a href="#testimonials">Reviews</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="tel:+15551234567">(555) 123-4567</a></li>
+                            <li><a href="mailto:info@greenleaflandscaping.com">Email Us</a></li>
+                            <li><a href="#quote">Get Quote</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 GreenLeaf Landscaping. All rights reserved.</p>
+                <p><a href="../index.html">← Back to Portfolio Hub</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
