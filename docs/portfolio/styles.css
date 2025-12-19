@@ -766,11 +766,14 @@ section {
 .project-image {
     overflow: hidden;
     border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+    padding: var(--space-md);
+    background: #f7fafc;
 }
 
 @media (min-width: 768px) {
     .project-image {
         border-radius: var(--radius-xl) 0 0 var(--radius-xl);
+        padding: var(--space-md);
     }
 
     .project-card:nth-child(even) .project-image {
@@ -803,7 +806,6 @@ section {
     height: 100%;
     object-fit: contain;
     display: block;
-    background: #f7fafc;
 }
 
 .project-content {
