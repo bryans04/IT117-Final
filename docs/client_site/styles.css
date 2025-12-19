@@ -109,6 +109,14 @@ h4 {
     object-fit: contain;
 }
 
+.logo-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--color-primary);
+    margin-left: var(--space-sm);
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
