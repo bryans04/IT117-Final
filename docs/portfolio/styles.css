@@ -798,6 +798,13 @@ section {
     opacity: 0.9;
 }
 
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 .project-content {
     padding: var(--space-xl);
     padding-bottom: calc(var(--space-xl) + var(--space-md));
