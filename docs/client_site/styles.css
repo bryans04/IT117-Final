@@ -102,6 +102,11 @@ h4 {
     font-size: 2rem;
 }
 
+.logo-image {
+    height: 60px;
+    width: auto;
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
